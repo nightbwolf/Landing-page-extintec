@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
 }
 :root{
     --buton: linear-gradient(#ff0f13, #faef28); 
@@ -15,7 +16,7 @@
     --degrade: linear-gradient( #e71f1fa6, #ff0000);
 }
 .background{
-    background-color:#295a31;
+    background-color:#99a39b;
 }
 
 /*classe reutilizavel*/
@@ -36,13 +37,16 @@ nav{
 }
 .ul li{
     margin: 5px;
+
 }
 .ul li a{
-    font-size: 20px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 body{
     font-family: "Inter", "sans-serif";
+    color: white;
 }
 .logo{
     width: 100px;
