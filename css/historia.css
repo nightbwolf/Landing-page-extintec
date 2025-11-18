@@ -24,6 +24,7 @@ body {
     top: 0;
     z-index: 100;
 }
+
 .btn-contato {
     padding: 12px 25px;
     background: #d62828;
@@ -123,7 +124,11 @@ body {
     margin: 20px auto;
     font-size: 1.1rem;
 }
-
+.soluciones{
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
 /* Equipe */
 .equipe {
     padding: 50px 10%;

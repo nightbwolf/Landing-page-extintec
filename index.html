@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/page_icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Extintec - Soluções em AVCB e Segurança Contra Incêndio</title>
@@ -20,13 +21,12 @@
         </nav>
     </header>
 
-
     <!-- HERO -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <h1>Engenharia de Segurança</h1>
             <p>Prevenindo incêndios, protegendo vidas, construindo com segurança para proteger o futuro!</p>
-        
+            <br>
             <a href="#contato" class="btn-hero">Solicitar Orçamento</a>
         </div>    
     </section>
@@ -34,7 +34,6 @@
     <!-- SERVIÇOS -->
     <section id="servicos" class="servicos">
         <h2>Nossos Serviços</h2>
-
         <div class="cards">
 
             <div class="card">
@@ -55,8 +54,7 @@
                 <p>Hidrantes, sprinklers, alarmes, iluminação de emergência, extintores e muito mais.</p>
             </div>
 
-            <!-- CARDS EXTRAS (usando ícones repetidos temporariamente) -->
-
+            <!-- CARDS EXTRAS -->
             <div class="card">
                 <img src="images/ícone instalação.png" alt="Ícone Temporário">
                 <h3>SPDA</h3>
@@ -99,14 +97,14 @@
     <!-- SOBRE -->
     <section id="sobre" class="sobre">
         <h2>Sobre Nós</h2>
-        <p> 
+        <p>
             A Extintec é especializada em soluções completas de prevenção e combate a incêndios.
             Atuamos com AVCB, projetos, instalações, treinamentos, manutenção e consultoria técnica.
         </p>
         <p>
             Com anos de experiência no mercado, oferecemos atendimento ágil, técnico e adequado às normas nacionais.
         </p>
-        <P><strong>Quer saber mais sobre nossa história?</strong></P>
+        <p><strong>Quer saber mais sobre nossa história?</strong></p>
         <a href="/html/about.html" class="btn-contato">Clique-Aqui</a>
     </section>
 
@@ -118,28 +116,104 @@
         <a href="mailto:extintecengenharia@gmail.com" class="btn-contato">Enviar E-mail</a>
     </section>
 
-    <!--slider-->
+    <!-- SLIDER -->
     <section class="slider">
-        <div class="slide active">Serviço 1: Emissão de AVCB completa.</div>
-        <div class="slide">Serviço 2: Projetos de combate a incêndio.</div>
-        <div class="slide">Serviço 3: SPDA e instalações elétricas.</div>
 
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div class="conteudo">
+                <div class="texto">
+                    <h3>Emissão de AVCB completa</h3>
+                    <p>Quem precisa desse documento?</p>
+                    <p>
+                        Se o seu espaço tem movimento,
+                        gente entrando e saindo,
+                        então essa <span class="fundobege">obrigação</span>
+                        <strong>é pra você</strong>
+                    </p>
+                    <br>
+                    <ul class="ul">
+                        <li>Empresas</li>
+                        <li>Comércios</li>
+                        <li>Escolas</li>
+                        <li>Condomínios</li>
+                    </ul>
+                    <p>
+                        Qualquer lugar com fluxo de pessoas <strong>precisa estar regularizado.</strong>
+                        Não é opção, <strong>é cuidado!</strong>
+                    </p>
+                    <br>
+                    <a href="#" id="btn-avcb" class="btn-contato">Quero o Avcb!</a>
+                </div>
+                <img src="/images/info_avcb.jpg" class="slide-image" alt="Informações sobre AVCB">
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="conteudo">
+                <img src="/images/img_mProjeto.jpg" alt="mesa de projeto" class="slide-image">
+                <div class="texto">
+                    <h3>Projetos de combate a incêndio.</h3>
+                    <p>Projetos contra incêndio, Projetos Básico, Projeto Executivo, Projeto Legal, Memoriais Descritivos, Memoriais de cálculo, Lista de materiais ASBUILT.</p>
+                    <br><br>    
+                    <a href="#" id="btn-projeto" class="btn-contato">Quero um projeto!</a>
+                </div>
+            </div>        
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="conteudo">
+                <div class="texto">
+                    <h3>Treinamentos.</h3>
+                    <p>
+                        Treinamentos "in Company" Brigada de incêndio - formação e reciclagem, NR35 Trabalho em altura, NR33 Espaço confinado, CIPA e Primeiros socorros.
+                    </p>
+                    <br><br>
+                    <a href="#" id="btn-treinamentos" class="btn-contato">Quero treinamentos!</a>
+                </div>
+                <img src="/images/img_treinamento.png" alt="spda" class="slide-image">
+            </div>
+        </div>
+
+        <!-- Navegação do Slider -->
         <button class="prev">‹</button>
         <button class="next">›</button>
-    </section>
 
+    </section>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 Extintec - Todos os direitos reservados.</p>
+        <div class="footer-top">
+            <div class="footer-info">
+                <h3>Extintec</h3>
+                <p>Endereço: Ed. Mocelin Tower - Av. Daniel de La Touche, nª 20, Sala 307 - Cohama, São Luís - MA, 65073-212</p>
+                <p>CNPJ: 26.094.684/0001-21​</p>
+                <p>Telefone:(98) 98185-7003</p>
+                <p>Email: <a href="mailto:extintecengenharia@gmail.com">extintecengenharia@gmail.com</a></p>
+            </div>
 
-        <div class="footer-links">
-            <a href="#inicio">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#sobre">Sobre Nós</a>
-            <a href="#contato">Contate-nos</a>
+            <div class="footer-redes">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/extintec_engenharia/" target="_blank"><img src="images/icon_instagram.png" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="images/icon_whatsapp.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#contato">Contate-nos</a>
+            </div>
         </div>
-    </footer>
 
+        <div class="footer-bottom">
+            <p>© 2025 Extintec - Todos os direitos reservados.</p>
+    </div>
+    </footer>    
 </body>
 </html>
