@@ -2,76 +2,130 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Extintec Engenharia</title>
-
+    <title>Extintec - Soluções em AVCB e Segurança Contra Incêndio</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <!--começo do header-->
-    <div class="background">
-        <Header>
-            <div class="container">
-                <nav> 
-                    <div class="logo">
-                    <a href="index.html"><img class="logo" src="/images/logo-Extintec.png" alt="logo-Extintec"></a>
-                    </div>
-                    
-                    <ul class="ul">
-                        <li><a href="index.html">Inicio</a></li>
-
-                        <li><a href="#">Sobre-nós</a></li>
-
-                        <li><a href="#"><button class="button">Fale-conosco</button></a></li>
-                    </ul>
-                </nav>
-
-            </div>
-        </Header>
-    </div>
-    <!--fim do header-->
-    <!--começo do main-->
-    <main>
-        <!--container-->
-        <div class="container">
-            <!--main-text-->
-            <div class="main-text">
-                
-                <h1>Engenharia de Segurança</h1>
-                <h3>Prevenindo incêndios, protegendo vidas, construindo com segurança para proteger o futuro!</h3>
-                
-                <div>
-                    <button class="button">Fale-conosco</button>
-                </div> 
-            </div>
-            <!--end main-text-->
-            <!--main-img-->
-            <div class="main-img">
-                <img src="images/foto_de_capa.jpeg" alt="foto de capa">
-            </div>
-            <!--end main-img-->
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <img src="images/logo-Extintec.png" alt="Logo da Extintec">
         </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contate-nos</a>
+        </nav>
+    </header>
 
-        <section class="container">
-            <div class="maininfo">
-                <h2 class="titulo">Nossos principais serviços</h2>
 
-                <div class="textoPrincipal">
-                    <tr>
-                        <td>AVCB</td>
-                    </tr>
-                </div>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Engenharia de Segurança</h1>
+            <p>Prevenindo incêndios, protegendo vidas, construindo com segurança para proteger o futuro!</p>
+        
+            <a href="#contato" class="btn-hero">Solicitar Orçamento</a>
+        </div>    
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="images/ícone avcb.png" alt="Ícone Bombeiro">
+                <h3>AVCB</h3>
+                <p>Consultoria para renovação do AVCB ou documentação inicial. Elaboração do PAE (NR35).</p>
             </div>
 
-        </section>
-    </main>
-    <!--fim do main-->
+            <div class="card">
+                <img src="images/ícone laudo.png" alt="Ícone Laudos">
+                <h3>Laudos</h3>
+                <p>Higienização e teste hidrostático das mangueiras com laudo e ART. Obras civis e manutenções.</p>
+            </div>
 
-    <!--começo do footer-->
+            <div class="card">
+                <img src="images/ícone manutenção.png" alt="Ícone Manutenção">
+                <h3>Instalação & Manutenção</h3>
+                <p>Hidrantes, sprinklers, alarmes, iluminação de emergência, extintores e muito mais.</p>
+            </div>
+
+            <!-- CARDS EXTRAS (usando ícones repetidos temporariamente) -->
+
+            <div class="card">
+                <img src="images/ícone instalação.png" alt="Ícone Temporário">
+                <h3>SPDA</h3>
+                <p>Instalação e manutenção de SPDA conforme a NBR 5419/2005.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ícone projeto.png" alt="Ícone Temporário">
+                <h3>Projetos</h3>
+                <p>Projeto Básico, Executivo e Legal. Memoriais descritivos, cálculos e ASBUILT.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ícone manutenção.png" alt="Ícone Temporário">
+                <h3>Automatização</h3>
+                <p>Automação de sistemas de bombas para RTI de incêndio.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ícone laudo.png" alt="Ícone Temporário">
+                <h3>Treinamentos</h3>
+                <p>Brigada de incêndio, NR35, NR33, CIPA e primeiros socorros. Treinamentos In Company.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ícone laudo.png" alt="Ícone Temporário">
+                <h3>Gestão SSMA</h3>
+                <p>PGR, LTCAT, PCMSO, PPP e documentação de saúde, segurança e medicina do trabalho.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/ícone projeto.png" alt="Ícone Temporário">
+                <h3>Programas Ambientais</h3>
+                <p>Elaboração de estudos, análises e programas ambientais.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p> 
+            A Extintec é especializada em soluções completas de prevenção e combate a incêndios.
+            Atuamos com AVCB, projetos, instalações, treinamentos, manutenção e consultoria técnica.
+        </p>
+        <p>
+            Com anos de experiência no mercado, oferecemos atendimento ágil, técnico e adequado às normas nacionais.
+        </p>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+        <h2>Contate-nos</h2>
+        <p>Solicite um orçamento ou tire suas dúvidas.</p>
+
+        <a href="mailto:contato@extintec.com" class="btn-contato">Enviar E-mail</a>
+    </section>
+
+    <!-- FOOTER -->
     <footer>
+        <p>© 2025 Extintec - Todos os direitos reservados.</p>
 
+        <div class="footer-links">
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contate-nos</a>
+        </div>
     </footer>
-    <!--fim do footer-->
+
 </body>
 </html>
