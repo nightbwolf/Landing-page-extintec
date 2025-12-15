@@ -28,7 +28,7 @@ header {
 }
 
 header .logo img {
-    height: 85px; /* ajuste como quiser */
+    height: 50px; /* ajuste como quiser */
     width: auto;
 }
 
@@ -43,6 +43,36 @@ header nav a {
 header nav a:hover {
     color: #222;
 }
+
+/* Estilos gerais para o ícone */
+.menu-icon {
+    display: none; /* Oculto em telas grandes */
+    cursor: pointer;
+    /* Estilos para as barras (usando pseudoelementos) */
+}
+.bar { /* Para a barra do meio */
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+}
+/* ... (estilos para ::before e ::after para as outras duas barras) ... */
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block; /* Mostra em telas pequenas */
+    }
+    .menu-list {
+        display: none; /* Oculta o menu por padrão */
+        /* Estilos para quando o menu é aberto (com JS ou classe de ativação) */
+    }
+    /* Classe para mostrar o menu */
+    .menu-list.active {
+        display: block;
+    }
+}
+
 
 
 /* HERO */
