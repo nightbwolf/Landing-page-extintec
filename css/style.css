@@ -44,6 +44,7 @@ header nav a:hover {
     color: #222;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     header {
         padding: 10px 15px;
@@ -52,10 +53,7 @@ header nav a:hover {
         margin-left: 10px;
         font-size: 14px;
     }
-}
 
-/* Responsive Design */
-@media (max-width: 768px) {
     /* HERO */
     .hero {
         height: 80vh;
