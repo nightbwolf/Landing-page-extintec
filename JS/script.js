@@ -15,3 +15,7 @@ document.querySelector('.prev').onclick = () => {
     index = (index - 1 + slides.length) % slides.length;
     showSlide(index)
 };
+
+document.getElementById('menu-icon').addEventListener('click', function() {
+    document.getElementById('menu-list').classList.toggle('active');
+});
